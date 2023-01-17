@@ -1,0 +1,74 @@
+
+/*MAIN*/
+
+main{
+    width: 100%;
+    height: fit-content;
+    background: url(./images/185201091_106384378294571_4919551957234678727_n.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 10px 0px;
+}
+
+#banner{
+    box-sizing: border-box;
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    background: #DD3A4B;
+    border: 1px solid #131212;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#banner p{
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+    text-align: center;
+}
+
+#transparent-container{
+    width: 95%;
+    height: 88%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    background: rgba(239, 230, 230, 0.65);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#transparent-wrapper {
+    padding: 50px 10%;
+}
+
+#transparent-container p{
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+}
+
+#transparent-container h2, #transparent-container h1{
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+}
+
+#transparent-container h2{
+    margin-top: 50px;
+}

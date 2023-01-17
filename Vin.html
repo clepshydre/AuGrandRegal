@@ -1,0 +1,279 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="./Vin.css">
+    <link rel="stylesheet" href="./Backbone.css">
+    <script type="module" src="./GoogleMap.js"></script>
+    <title>Carte des vins</title>
+</head>
+<body>
+    <header>
+        <hr class="logo-line" id="logo-line-up">
+        <menu>
+            <a href='Restaurant.html' id='restaurant' class='hidden-menu-link'>Restaurant</a>
+            <a href='Equipe.html' id='equipe' class='hidden-menu-link'>Équipe</a>
+            <li class="deroulant"><a href="#" class="hidden-menu-link">Carte &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Midi.html">Menu midi</a></li>
+                    <li><a href="Soir.html">Menu soir</a></li>
+                    <li><a href="Enfant.html">Menu enfant</a></li>
+                    <li><a href="Vin.html">Vin</a></li>
+                </ul>
+            </li>
+            <a href="Accueil.html">
+                <img id='img-logo-header' src="./images/Capture-removebg-preview.png" alt="c'est cassé">
+            </a>
+            <li class="deroulant"><a href='#' id='event' class='hidden-menu-link'>Évènement &ensp;</a>                
+                <ul class="sous">
+                    <li><a href="Programme.html">Programme</a></li>
+                    <li><a href="Privatiser.html">Privatiser</a></li>
+                </ul>
+            </li>
+            <a href='Contact.html' id='contact' class='hidden-menu-link'>Nous contacter</a>
+        </menu>
+        <hr class="logo-line" id="logo-line-down-right">
+        <hr class="logo-line" id="logo-line-down-left">
+    </header>
+    <div id="burger-menu">
+        <nav>
+            <a id="link" href="#"><span id="burger"></span></a>
+            <ul class="list-unstyled" id="burger-items">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Restaurant.html">Restaurant</a></li>
+                <li><a href="Equipe.html">Équipe</a></li>
+                <li><a href="Midi.html">Midi</a></li>
+                <li><a href="Soir.html">Soir</a></li>
+                <li><a href="Enfant.html">Enfant</a></li>
+                <li><a href="Vin.html">Vin</a></li>
+                <li><a href="Programme.html">Programme</a></li>
+                <li><a href="Privatiser.html">Privatiser</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </nav>
+        <h2>Vins</h2>
+    </div>
+    <main>
+        <div id="banner">
+            <div id="hours">
+                <p>Ouvert aujourd’hui : 12h-14h, 19h-23h</p>
+            </div>
+            <div id="reservation-tel">
+                <p>Réservation par téléphone uniquement : 09 86 08 66 36</p>
+            </div>
+        </div>
+
+        <div id="transparent-container">
+            <div id="transparent-wrapper">
+                <div id="title">
+                    <h2 class="red">Vin rouge</h2>
+                </div>
+                <img src="images/image_19-removebg-preview.png" alt="">
+                <table id="red-wine-table" class="red">
+                    <thead id="red-wine-title">
+                        <tr>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Bouteille<br>(75cl)</th>
+                            <th>Verre<br>(12,5cl)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="grand-regal-red-container">
+                            <td>La cuvée au grand régal</td>
+                            <td class="empty-sign"> - </td>
+                            <td>13€</td>
+                            <td>3,5€</td>
+                        </tr>
+                        <tr>
+                            <td>AOP St Chinian</td>
+                            <td class="description">Vin gourmand, attaque souple et fruitée</td>
+                            <td>16,5€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Etang des Colombes - AOP Corbières</td>
+                            <td class="description">Vin plaisir, attaque franche et belle longueur en bouche</td>
+                            <td>15€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Fitou</td>
+                            <td class="description">Attaque soutenue, note de fruits rouges prononcée</td>
+                            <td>16,5€</td>
+                            <td>4,5€</td>
+                        </tr>
+                        <tr>
+                            <td>Bordeaux -  Cruse</td>
+                            <td class="description">Attaque souple, vin gouleyant, léger en bouche</td>
+                            <td>15,5€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Pic Saint-Loup -  Haut Lirou</td>
+                            <td class="description"> Arôme intense de fruits rouges confiturés et d’épices douces, une texture onctueuse, des tanins fondus</td>
+                            <td>19€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Château Bouscassé - AOP Madiran</td>
+                            <td class="description">Vin cout de cœur, puissance aromatique et longueur en bouche</td>
+                            <td>26€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="images/Rectangle 24.png" alt="">
+                <div id="title">
+                    <h2 class="pink">Vin rosé</h2>
+                </div>
+                <img src="images/image_19-removebg-preview.png" alt="">
+                <table id="pink-wine-table" class="pink">
+                    <thead id="pink-wine-title">
+                        <tr>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Bouteille<br>(75cl)</th>
+                            <th>Verre<br>(12,5cl)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>La cuvée au grand régal</td>
+                            <td class="empty-sign"> - </td>
+                            <td>13€</td>
+                            <td>3,5€</td>
+                        </tr>
+                        <tr>
+                            <td>AOP Gaillac</td>
+                            <td class="description">Vin plaisir, note de fruit délicate</td>
+                            <td>14€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Côte de Provence</td>
+                            <td class="description">Bouteille Tropézienne – vin racé, complexe et frais</td>
+                            <td>19€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Listel</td>
+                            <td class="description"> Robe soutenue aux reflets framboise. Le nez offre des notes de petits fruits rouges suivi d’une bouche onctueuse, tendre et pleine</td>
+                            <td>18€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="images/Rectangle 24.png" alt="">
+                <div id="title">
+                    <h2 class="white">Vin blanc</h2>
+                </div>
+                <img src="images/image_19-removebg-preview.png" alt="">
+                <table id="white-wine-table" class="white">
+                    <thead id="white-wine-title">
+                        <tr>
+                            <th>Nom</th>
+                            <th>Description</th>
+                            <th>Bouteille<br>(75cl)</th>
+                            <th>Verre<br>(12,5cl)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Domaine Uby sec - IGP Côtes de Gascogne</td>
+                            <td class="description"> Alliance fruitée et fraîcheur</td>
+                            <td>13€</td>
+                            <td>4€</td>
+                        </tr>
+                        <tr>
+                            <td>Domaine Uby doux - IGP Côtes de Gascogne</td>
+                            <td class="description">Bouche gourmande, belle fraîcheur en bouche</td>
+                            <td>17€</td>
+                            <td>4,5€</td>
+                        </tr>
+                        <tr>
+                            <td>Chardonnay 9 clés – IGP Pays d’OC</td>
+                            <td class="description">Aromatique et présence en bouche</td>
+                            <td>16€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                        <tr>
+                            <td>Domaine – AOP picpoul de Pinet</td>
+                            <td class="description">Note minéral subtile</td>
+                            <td>16€</td>
+                            <td class="empty-sign">-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="images/Rectangle 24.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="restaurant-information">
+            <div id="information-wrapper" class="restaurant-information-wrapper">
+                <h2>Informations</h2>
+                <div class="info-container" id="info-adress">
+                    <img class="logo-info" id="logo-adress" src="images/logo-adress.png" alt="">
+                    <p>2 Chem. de la Camave, 31290 <br> Villefranche-de-Lauragais</p>
+                </div>
+                <div class="info-container" id="info-tel">
+                    <img class="logo-info" id="logo-tel" src="images/logo-tel.png" alt="">
+                    <p>09 86 08 66 36</p>
+                </div>
+                <div class="info-container" id="info-mail">
+                    <img class="logo-info" id="logo-tel" src="images/logo-email.png" alt="">
+                    <p>nfes@outlook.fr</p>
+                </div>
+            </div>
+
+            <div id="horaire-wrapper" class="restaurant-information-wrapper">
+                <h2>Horaires</h2>
+                <div>
+                    <ul>
+                        <li>Lundi: fermé</li>
+                        <li>Mardi: fermé</li>
+                        <li>Mercredi : 12h-15h, 19h-23h</li>
+                        <li>Jeudi: 12h-15h, 19h-23h</li>
+                        <li>Vendredi: 12h-15h, 19h-2h</li>
+                        <li>Samedi: 12h-16h, 19h-2h</li>
+                        <li>Dimanche: 12h-16h, 19h-2h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="localisation-wrapper" class="restaurant-information-wrapper">
+                <h2>Localisation</h2>
+                <div id="map">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ligne">
+            <hr>
+        </div>
+        
+        <div id="end-footer">
+            <p>Au Grand Régal©</p>
+            <div id="social-logo">
+                <img src="images/logo-fb.png" alt="">
+                <img src="images/logo-insta.png" alt="">
+            </div>
+            <div id="legal-link">
+                <a href="MentionsLegales.html">Mentions légales</a>
+                <a href="Contact.html">Nous contacter</a>
+            </div>
+        <div>
+    </footer>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS10yUbOF3zMF2XD2P4oCKWTDXGeu0cCc&callback=initMap&v=weekly"
+    defer
+    ></script>
+<script src="./Burger-menu.js"></script>
+</html>

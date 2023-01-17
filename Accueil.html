@@ -1,0 +1,222 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="./Accueil.css">
+    <link rel="stylesheet" href="./Backbone.css">
+    <script type="module" src="./GoogleMap.js"></script>
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <hr class="logo-line" id="logo-line-up">
+        <menu>
+            <a href='Restaurant.html' id='restaurant' class='hidden-menu-link'>Restaurant</a>
+            <a href='Equipe.html' id='equipe' class='hidden-menu-link'>Équipe</a>
+            <li class="deroulant"><a href="#" class="hidden-menu-link">Carte &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Midi.html">Menu midi</a></li>
+                    <li><a href="Soir.html">Menu soir</a></li>
+                    <li><a href="Enfant.html">Menu enfant</a></li>
+                    <li><a href="Vin.html">Vin</a></li>
+                </ul>
+            </li>
+            <a href="Accueil.html">
+                <img id='img-logo-header' src="./images/Capture-removebg-preview.png" alt="c'est cassé">
+            </a>
+            <li class="deroulant"><a href='#' id='event' class='hidden-menu-link'>Évènement &ensp;</a>                
+                <ul class="sous">
+                    <li><a href="Programme.html">Programme</a></li>
+                    <li><a href="Privatiser.html">Privatiser</a></li>
+                </ul>
+            </li>
+            <a href='Contact.html' id='contact' class='hidden-menu-link'>Nous contacter</a>
+        </menu>
+        <hr class="logo-line" id="logo-line-down-right">
+        <hr class="logo-line" id="logo-line-down-left">
+    </header>
+    <div id="burger-menu">
+        <nav>
+            <a id="link" href="#"><span id="burger"></span></a>
+            <ul class="list-unstyled" id="burger-items">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Restaurant.html">Restaurant</a></li>
+                <li><a href="Equipe.html">Équipe</a></li>
+                <li><a href="Midi.html">Midi</a></li>
+                <li><a href="Soir.html">Soir</a></li>
+                <li><a href="Enfant.html">Enfant</a></li>
+                <li><a href="Vin.html">Vin</a></li>
+                <li><a href="Programme.html">Programme</a></li>
+                <li><a href="Privatiser.html">Privatiser</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </nav>
+        <h2>Accueil</h2>
+    </div>
+    <main>
+        <div id="banner">
+            <div id="hours">
+                <p>Ouvert aujourd’hui : 12h-14h, 19h-23h</p>
+            </div>
+            <div id="reservation-tel">
+                <p>Réservation par téléphone uniquement : 09 86 08 66 36</p>
+            </div>
+        </div>
+
+        <div id="transparent-container">
+            <div id="transparent-wrapper">
+                <h2>Bienvenue au grand régal</h2>
+                <img src="images/image_19-removebg-preview.png" alt="">
+                <p>Nous sommes un restaurant de buffet à volonté. <br>
+                    Nous vous proposons un large choix d’entrée, charcuterie, grillade de viande et de fruits 
+                    de mer accompagné de frites maison, riz pilaf ou légumes. <br>
+                    Les desserts ne sont pas en reste avec notre sélection de gâteaux et la possibilité de prendre parmis nos 19 variétés de glâces. <br>
+                    Le tout de qualité et à petit prix.
+                </p>
+                <img src="images/Rectangle 24.png" alt="">
+            </div>
+            <div id="reviews-container">
+                <h2>Découvrez nos avis <a href="https://www.facebook.com/neveufreresetsoeur/reviews">facebook</a></h2>
+                <section class="carousel" aria-label="Gallery">
+                    <ol class="carousel__viewport">
+                      <li id="carousel__slide1"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fjustine.marchetto%2Fposts%2Fpfbid0QBfv6JAsY9RtKPxJzEwhtPwFEjFgbj13qWdNPo3pC6XxKsKF5yUkBeczrXSD2BUdl&show_text=true&width=500" width="500" height="207" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>                          <a href="#carousel__slide4"
+                             class="carousel__prev">Go to last slide</a>
+                          <a href="#carousel__slide2"
+                             class="carousel__next">Go to next slide</a>
+                        </div>
+                      </li>
+                      <li id="carousel__slide2"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdoriane.h.riviere%2Fposts%2Fpfbid0322V4sd1dnEHLQYcXeRgr8GNU6UfB8yukB5iEnpH1zRmAxZHiQ6skbxjfVT9Vf4aVl&show_text=true&width=500" width="500" height="246" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                        <a href="#carousel__slide1"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3"
+                           class="carousel__next">Go to next slide</a>
+                      </li>
+                      <li id="carousel__slide3"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Femilie.babi%2Fposts%2Fpfbid02cZWToD9LH4UvnDYUT3QWxLButoaoXUxvi4EUqLoEfCi4DbAsXWivCrZc7qCWBpX9l&show_text=true&width=500" width="500" height="319" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                        <a href="#carousel__slide2"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide4"
+                           class="carousel__next">Go to next slide</a>
+                      </li>
+                      <li id="carousel__slide4"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Felodie.folch%2Fposts%2Fpfbid02jPcZEHZuUUfncsBAta4ycJpzYRhaCdVAq97y6Schmi99ogPtGR3F3ufgH9bdoxBgl&show_text=true&width=500" width="500" height="261" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                        <a href="#carousel__slide3"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1"
+                           class="carousel__next">Go to first slide</a>
+                      </li>
+                    </ol>
+                    <aside class="carousel__navigation">
+                      <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide1"
+                             class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide2"
+                             class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide3"
+                             class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide4"
+                             class="carousel__navigation-button">Go to slide 4</a>
+                        </li>
+                      </ol>
+                    </aside>
+                  </section>
+                <div id="reviews">
+                    
+                    
+                </div>
+                <p>Retrouver aussi nos avis sur <a href="https://www.tripadvisor.fr/Restaurant_Review-g2189410-d9766549-Reviews-Au_Grand_Regal-Villefranche_de_Lauragais_Haute_Garonne_Occitanie.html"> tripadvisor</a> et <a href="https://www.google.com/maps/place/Au+grand+r%C3%A9gal/@43.3990984,1.7084937,15z/data=!4m7!3m6!1s0x0:0xb7c7d4255a19ea3!8m2!3d43.3990984!4d1.7084937!9m1!1b1"> google</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="restaurant-information">
+            <div id="information-wrapper" class="restaurant-information-wrapper">
+                <h2>Informations</h2>
+                <div class="info-container" id="info-adress">
+                    <img class="logo-info" id="logo-adress" src="images/logo-adress.png" alt="">
+                    <p>2 Chem. de la Camave, 31290 <br> Villefranche-de-Lauragais</p>
+                </div>
+                <div class="info-container" id="info-tel">
+                    <img class="logo-info" id="logo-tel" src="images/logo-tel.png" alt="">
+                    <p>09 86 08 66 36</p>
+                </div>
+                <div class="info-container" id="info-mail">
+                    <img class="logo-info" id="logo-tel" src="images/logo-email.png" alt="">
+                    <p>nfes@outlook.fr</p>
+                </div>
+            </div>
+
+            <div id="horaire-wrapper" class="restaurant-information-wrapper">
+                <h2>Horaires</h2>
+                <div>
+                    <ul>
+                        <li>Lundi: fermé</li>
+                        <li>Mardi: fermé</li>
+                        <li>Mercredi : 12h-15h, 19h-23h</li>
+                        <li>Jeudi: 12h-15h, 19h-23h</li>
+                        <li>Vendredi: 12h-15h, 19h-2h</li>
+                        <li>Samedi: 12h-16h, 19h-2h</li>
+                        <li>Dimanche: 12h-16h, 19h-2h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="localisation-wrapper" class="restaurant-information-wrapper">
+                <h2>Localisation</h2>
+                <div id="map">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ligne">
+            <hr>
+        </div>
+        
+        <div id="end-footer">
+            <p>Au Grand Régal©</p>
+            <div id="social-logo">
+                <img src="images/logo-fb.png" alt="">
+                <img src="images/logo-insta.png" alt="">
+            </div>
+            <div id="legal-link">
+                <a href="MentionsLegales.html">Mentions légales</a>
+                <a href="Contact.html">Nous contacter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS10yUbOF3zMF2XD2P4oCKWTDXGeu0cCc&callback=initMap&v=weekly"
+    defer
+    ></script>
+<script src="./Burger-menu.js"></script>
+</html>

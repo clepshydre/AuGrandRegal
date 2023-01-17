@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="./MentionsLegales.css">
+    <link rel="stylesheet" href="./Backbone.css">
+    <script type="module" src="./GoogleMap.js"></script>
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <hr class="logo-line" id="logo-line-up">
+        <menu>
+            <a href='Restaurant.html' id='restaurant' class='hidden-menu-link'>Restaurant</a>
+            <a href='Equipe.html' id='equipe' class='hidden-menu-link'>Équipe</a>
+            <li class="deroulant"><a href="#" class="hidden-menu-link">Carte &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Midi.html">Menu midi</a></li>
+                    <li><a href="Soir.html">Menu soir</a></li>
+                    <li><a href="Enfant.html">Menu enfant</a></li>
+                    <li><a href="Vin.html">Vin</a></li>
+                </ul>
+            </li>
+            <a href="Accueil.html">
+                <img id='img-logo-header' src="./images/Capture-removebg-preview.png" alt="c'est cassé">
+            </a>
+            <li class="deroulant"><a href='#' id='event' class='hidden-menu-link'>Évènement &ensp;</a>                
+                <ul class="sous">
+                    <li><a href="Programme.html">Programme</a></li>
+                    <li><a href="Privatiser.html">Privatiser</a></li>
+                </ul>
+            </li>
+            <a href='Contact.html' id='contact' class='hidden-menu-link'>Nous contacter</a>
+        </menu>
+        <hr class="logo-line" id="logo-line-down-right">
+        <hr class="logo-line" id="logo-line-down-left">
+    </header>
+    <div id="burger-menu">
+        <nav>
+            <a id="link" href="#"><span id="burger"></span></a>
+            <ul class="list-unstyled" id="burger-items">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Restaurant.html">Restaurant</a></li>
+                <li><a href="Equipe.html">Équipe</a></li>
+                <li><a href="Midi.html">Midi</a></li>
+                <li><a href="Soir.html">Soir</a></li>
+                <li><a href="Enfant.html">Enfant</a></li>
+                <li><a href="Vin.html">Vin</a></li>
+                <li><a href="Programme.html">Programme</a></li>
+                <li><a href="Privatiser.html">Privatiser</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </nav>
+        <h2>Mentions légales</h2>
+    </div>
+    <main>
+        <div id="banner">
+            <div id="hours">
+                <p>Ouvert aujourd’hui : 12h-14h, 19h-23h</p>
+            </div>
+            <div id="reservation-tel">
+                <p>Réservation par téléphone uniquement : 09 86 08 66 36</p>
+            </div>
+        </div>
+
+        <div id="transparent-container">
+            <div id="transparent-wrapper">
+                <h1>Mentions légales</h1>
+                <p>Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site restaurant.augrandregal l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
+                <h2>Informations légales</h2>
+                <p>Au grand régal <br>
+                    2 Chem. de la Camave, 31290 Villefranche-de-Lauragais <br>
+                    Siret: 88230014800013 <br>
+                    FR55882300148 <br>
+                    Christopher, Cindy et Tony Neveu <br>
+                    09 86 08 66 36 <br></p>
+                <h2>Hébergement</h2>
+                <p>Le Site est hébergé par la société OVH SAS, situé 2 rue Kellermann - BP 80157 - 59053 Roubaix Cedex 1, (contact téléphonique ou email : 1007).</p>
+                <h2>Données personnelles et confidentialité</h2>
+                <p>Les données fournies librement avec les formulaires de contact servent uniquement à traiter la demande de l’utilisateur. En aucun cas les données recueillies ne seront cédées ou vendues à des tiers, ni utilisées pour l’envoi de courrier indésirable. Pour toute information sur ce sujet, vous pouvez nous contacter.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="restaurant-information">
+            <div id="information-wrapper" class="restaurant-information-wrapper">
+                <h2>Informations</h2>
+                <div class="info-container" id="info-adress">
+                    <img class="logo-info" id="logo-adress" src="images/logo-adress.png" alt="">
+                    <p>2 Chem. de la Camave, 31290 <br> Villefranche-de-Lauragais</p>
+                </div>
+                <div class="info-container" id="info-tel">
+                    <img class="logo-info" id="logo-tel" src="images/logo-tel.png" alt="">
+                    <p>09 86 08 66 36</p>
+                </div>
+                <div class="info-container" id="info-mail">
+                    <img class="logo-info" id="logo-tel" src="images/logo-email.png" alt="">
+                    <p>nfes@outlook.fr</p>
+                </div>
+            </div>
+
+            <div id="horaire-wrapper" class="restaurant-information-wrapper">
+                <h2>Horaires</h2>
+                <div>
+                    <ul>
+                        <li>Lundi: fermé</li>
+                        <li>Mardi: fermé</li>
+                        <li>Mercredi : 12h-15h, 19h-23h</li>
+                        <li>Jeudi: 12h-15h, 19h-23h</li>
+                        <li>Vendredi: 12h-15h, 19h-2h</li>
+                        <li>Samedi: 12h-16h, 19h-2h</li>
+                        <li>Dimanche: 12h-16h, 19h-2h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="localisation-wrapper" class="restaurant-information-wrapper">
+                <h2>Localisation</h2>
+                <div id="map">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ligne">
+            <hr>
+        </div>
+        
+        <div id="end-footer">
+            <p>Au Grand Régal©</p>
+            <div id="social-logo">
+                <img src="images/logo-fb.png" alt="">
+                <img src="images/logo-insta.png" alt="">
+            </div>
+            <div id="legal-link">
+                <a href="MentionsLegales.html">Mentions légales</a>
+                <a href="Contact.html">Nous contacter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS10yUbOF3zMF2XD2P4oCKWTDXGeu0cCc&callback=initMap&v=weekly"
+    defer
+    ></script>
+<script src="./Burger-menu.js"></script>
+</html>

@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link rel="stylesheet" href="./Midi.css">
+    <link rel="stylesheet" href="./Backbone.css">
+    <script type="module" src="./GoogleMap.js"></script>
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <hr class="logo-line" id="logo-line-up">
+        <menu>
+            <a href='Restaurant.html' id='restaurant' class='hidden-menu-link'>Restaurant</a>
+            <a href='Equipe.html' id='equipe' class='hidden-menu-link'>Équipe</a>
+            <li class="deroulant"><a href="#" class="hidden-menu-link">Carte &ensp;</a>
+                <ul class="sous">
+                    <li><a href="Midi.html">Menu midi</a></li>
+                    <li><a href="Soir.html">Menu soir</a></li>
+                    <li><a href="Enfant.html">Menu enfant</a></li>
+                    <li><a href="Vin.html">Vin</a></li>
+                </ul>
+            </li>
+            <a href="Accueil.html">
+                <img id='img-logo-header' src="./images/Capture-removebg-preview.png" alt="c'est cassé">
+            </a>
+            <li class="deroulant"><a href='#' id='event' class='hidden-menu-link'>Évènement &ensp;</a>                <ul class="sous">
+                    <li><a href="Programme.html">Programme</a></li>
+                    <li><a href="Privatiser.html">Privatiser</a></li>
+                </ul>
+            </li>
+            <a href='Contact.html' id='contact' class='hidden-menu-link'>Nous contacter</a>
+        </menu>
+        <hr class="logo-line" id="logo-line-down-right">
+        <hr class="logo-line" id="logo-line-down-left">
+    </header>
+    <div id="burger-menu">
+        <nav>
+            <a id="link" href="#"><span id="burger"></span></a>
+            <ul class="list-unstyled" id="burger-items">
+                <li><a href="Accueil.html">Accueil</a></li>
+                <li><a href="Restaurant.html">Restaurant</a></li>
+                <li><a href="Equipe.html">Équipe</a></li>
+                <li><a href="Midi.html">Midi</a></li>
+                <li><a href="Soir.html">Soir</a></li>
+                <li><a href="Enfant.html">Enfant</a></li>
+                <li><a href="Vin.html">Vin</a></li>
+                <li><a href="Programme.html">Programme</a></li>
+                <li><a href="Privatiser.html">Privatiser</a></li>
+                <li><a href="Contact.html">Nous Contacter</a></li>
+            </ul>
+        </nav>
+        <h2>Midi</h2>
+    </div>
+    <main>
+        <div id="banner">
+            <div id="hours">
+                <p>Ouvert aujourd’hui : 12h-14h, 19h-23h</p>
+            </div>
+            <div id="reservation-tel">
+                <p>Réservation par téléphone uniquement : 09 86 08 66 36</p>
+            </div>
+        </div>
+
+        <div id="transparent-container">
+            <div id="formule-wrapper">
+                <div id="week-container">
+                    <div class="price-container">
+                        <h2>Formule du midi</h2>
+                        <div class="cercle">15.5€</div>
+                    </div>
+                    <h3>En semaine</h3>
+                    <img src="images/image_19-removebg-preview.png" alt="">
+                    <p>Buffet de charcuterie et cruditée</p>
+                    <p>+</p>
+                    <p>Grillade [sauf entrecôte et magret]<br> et/ou produit de la mer* <br>selon arrivage à la plancha <br>
+                        Buffet d’accompagnement</p>
+                    <p>+</p>
+                    <p>Buffet de desserts</p>
+                    <p>1/4 de vin ou boisson +2€</p>
+                    <img src="images/Rectangle 24.png" alt="">
+                </div>
+                <div id="week-end-container">
+                    <div class="price-container">
+                        <h2>Formule du midi</h2>
+                        <div class="cercle">21.5€</div>
+                    </div>
+                    <h3>Week-end et jours <br> férié</h3>
+                    <img src="images/image_19-removebg-preview.png" alt="">
+                    <p>Buffet de charcuterie et cruditée</p>
+                    <p>+</p>
+                    <p>Grillade et/ou produit de la mer* <br>selon arrivage à la plancha <br>
+                        Buffet d’accompagnement</p>
+                    <p>+</p>
+                    <p>Buffet de desserts</p>
+                    <img src="images/Rectangle 24.png" alt="">
+                </div>
+            </div>
+            <div id="asterisk-container">
+                <p>*sauce piquade: huile d’olive, ail, persil</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="restaurant-information">
+            <div id="information-wrapper" class="restaurant-information-wrapper">
+                <h2>Informations</h2>
+                <div class="info-container" id="info-adress">
+                    <img class="logo-info" id="logo-adress" src="images/logo-adress.png" alt="">
+                    <p>2 Chem. de la Camave, 31290 <br> Villefranche-de-Lauragais</p>
+                </div>
+                <div class="info-container" id="info-tel">
+                    <img class="logo-info" id="logo-tel" src="images/logo-tel.png" alt="">
+                    <p>09 86 08 66 36</p>
+                </div>
+                <div class="info-container" id="info-mail">
+                    <img class="logo-info" id="logo-tel" src="images/logo-email.png" alt="">
+                    <p>nfes@outlook.fr</p>
+                </div>
+            </div>
+
+            <div id="horaire-wrapper" class="restaurant-information-wrapper">
+                <h2>Horaires</h2>
+                <div>
+                    <ul>
+                        <li>Lundi: fermé</li>
+                        <li>Mardi: fermé</li>
+                        <li>Mercredi : 12h-15h, 19h-23h</li>
+                        <li>Jeudi: 12h-15h, 19h-23h</li>
+                        <li>Vendredi: 12h-15h, 19h-2h</li>
+                        <li>Samedi: 12h-16h, 19h-2h</li>
+                        <li>Dimanche: 12h-16h, 19h-2h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="localisation-wrapper" class="restaurant-information-wrapper">
+                <h2>Localisation</h2>
+                <div id="map">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div id="ligne">
+            <hr>
+        </div>
+        
+        <div id="end-footer">
+            <p>Au Grand Régal©</p>
+            <div id="social-logo">
+                <img src="images/logo-fb.png" alt="">
+                <img src="images/logo-insta.png" alt="">
+            </div>
+            <div id="legal-link">
+                <a href="MentionsLegales.html">Mentions légales</a>
+                <a href="Contact.html">Nous contacter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAS10yUbOF3zMF2XD2P4oCKWTDXGeu0cCc&callback=initMap&v=weekly"
+    defer
+    ></script>
+<script src="./Burger-menu.js"></script>
+</html>
